@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crochet Club Checker</title>
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+
+<style>
+body{
+    background-color: #ffdee9;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h1{
+    color: #520728;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#names{
+    width: 450px;
+    margin: auto;
+    padding: 40px;
+    border: 3px solid #ffffff;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+</style>
+</head>
+<body>
+    <div id="new">
+    <center> <h1>Add A New Member!</h1></center>
+    <br><br>
+    <center>
+    <form action="">
+        <input type="text" id="fname" placeholder="First Name">
+        <br>
+        <input type="text" id="lname" placeholder="Last Name">
+        <br><br><br>
+        <button type="button" py-click="names">Submit!</button> 
+        <br><br>
+</form></center>
+
+     <div id="output"></div>
+    <script type="py" src="main.py"></script>
+</div>
+</body>
+</html>
